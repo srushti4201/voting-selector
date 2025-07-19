@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Voting calculator</h1>
+    <p>Let's add your age for Voting</p>
+    <form action="/submit" method="post">
+        <input class="text" type="text" name="name" placeholder="Name" required><br><br>
+        <input  class="text" type="number" name="age" placeholder="Age" required><br><br>
+        <input class="submit" type="submit" value="Submit">
+    </form>
+    
+    <% if (age !== null) { %>
+        <% if (locals.age >= 18) { %>
+            <p> <%= name %> is eligible to vote.</p>
+        <% } else { %>
+            <p>Sorry, <%= name %> you are not eligible to vote.</p>
+        <% } %>
+    <% } %>
+
+    </div>
+</body>
+</html>

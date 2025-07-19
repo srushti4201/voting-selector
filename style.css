@@ -1,0 +1,43 @@
+body{
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: rgb(127, 42, 42);
+}
+.container {
+    background-color: burlywood;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 10, 10, 10);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+  }
+h1 {
+    color: brown;
+    font-size: 50px;
+}
+p{
+    color: rgb(47, 31, 12);
+    font-size: 20px;
+}
+.text{
+    height: 25px;
+    width: 20%;
+    border-radius: 10px;
+}
+.text{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border-color: brown;
+}
+.submit{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 25px;
+    width: 60px;
+}
+.submit:hover{
+    background-color: rgb(56, 45, 45);
+}
